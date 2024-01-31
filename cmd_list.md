@@ -3,6 +3,7 @@
 ```
 $ git config --global user.name "Silvers.Rayleigh"
 $ git config --global user.email "silvers.rayleigh@gee-mail.com"
+$ git config --global core.editor "code --wait"
 $ git config --list
 $ cat ~/.gitconfig
 $ git init
