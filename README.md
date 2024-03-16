@@ -1,10 +1,27 @@
 ## git command list
 
+## 目次
+- [git_config](#git_config)
+
+## git_config
+### gitにユーザ名をグローバルに設定する。
 ```
 $ git config --global user.name "Silvers.Rayleigh"
+```
+### gitにユーザのメールアドレスをグローバルに設定する。
+```
 $ git config --global user.email "silvers.rayleigh@gee-mail.com"
+```
+### gitのデフォルトエディタをVScodeに設定する。
+```
 $ git config --global core.editor "code --wait"
+```
+### 現在のgitの設定をリスト表示する。
+```
 $ git config --list
+```
+
+```
 $ cat ~/.gitconfig
 $ git init
 $ git add <file name>
