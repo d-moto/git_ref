@@ -21,20 +21,56 @@ $ git config --global core.editor "code --wait"
 $ git config --list
 ```
 
+### ユーザ情報の確認
 ```
 $ cat ~/.gitconfig
+```
+
+### ローカルレポジトリを作成
+```
 $ git init
+```
+
+### ファイルをステージングする
+```
 $ git add <file name>
 $ git add .
+```
+
+### ファイルをコミットする
+```
 $ git commit -m "<comment>"
 $ git commit
+```
+
+### ブランチの名前を変更する
+```
 $ git branch -m <branch name>
+```
+
+### リモートレポジトリの情報を登録する
+```
 $ git remote add origin git@github.com:<username>/git-branch-name.git
+```
+
+### リモートレポジトリにローカルレポジトリの情報をpushする
+```
 $ git push origin main
 $ git push -u origin main
 $ git push
+```
+
+### リモートレポジトリをローカルレポジトリにクローンする
+```
 $ git clone git@github.com:<username>/git-branch-name.git
+```
+
+### 現在のブランチを確認
+```
 $ git branch
+```
+
+### 
 $ git branch -m <now branch name> <new branch name>
 $ git branch -m <new branch name>
 $ git branch -M <the branch name you want to forcebly change>
